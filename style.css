@@ -16,3 +16,17 @@
     padding: 0px;
     background-color: rgb(255, 255, 255);
 }
+
+
+header{
+    display: inline-flex;
+}
+
+h1{
+    background-color: transparent;
+}
+
+.container_header{
+    background-color: yellowgreen;
+    padding: 10px;
+}
