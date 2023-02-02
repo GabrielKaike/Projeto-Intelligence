@@ -20,12 +20,11 @@
 
 .container_header{
     background-color: var(--cor_header);
-    padding: 10px;
-    margin: auto;
+    padding: 20px;
 }
 
 header{
-    display: inline-flex;
+    text-align: center;
     background-color: var(--cor_header);
 }
 
@@ -34,12 +33,6 @@ header a,header h1{
     font-family: var(--fonte_titulo);
     color: var(--cor_title_header);
     margin: 10px;
-}
-
-nav{
-    display: inline-flex;
-    background-color: var(--cor_header);
-
 }
 
 header a{
@@ -57,6 +50,50 @@ header a:hover{
     
 }
 
+nav{
+    display: flex;
+    background-color: var(--cor_header);
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container{
+    padding: 10px;
+    background-color: var(--cor_header);
+    display: inline-flex;
+    
+}
+
+main{
+    margin: auto;
+    width: auto;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    max-width: 700px;
+}
+
+article{
+    background-color: var(--cor_header);
+}
+
+main h1{
+    color: var(--cor_title_header);
+    font-family: var(--fonte_titulo);
+    background-color: var(--cor_header);
+}
+
 main p {
     max-width: 400px;
+    padding: 10px;
+    color: white;
+    font-family: var(--fonte_texto);
+    background-color: var(--cor_header);
+}
+
+picture{
+    background-color: var(--cor_header);
+    padding: 10px;
+    margin: 10;
 }
